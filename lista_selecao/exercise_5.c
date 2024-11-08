@@ -9,11 +9,11 @@ int main() {
     scanf("%d", &second_team_goals);
 
     if (first_team_goals == second_team_goals) {
-        printf("Empate\n");
+      printf("Empate\n");
     } else if (first_team_goals > second_team_goals) {
-        printf("Vitoria do primeiro time\n");
+      printf("Vitoria do primeiro time\n");
     } else {
-        printf("Vitoria do segundo time\n");
+      printf("Vitoria do segundo time\n");
     }
 
     return 0;

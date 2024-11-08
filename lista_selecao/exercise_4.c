@@ -45,7 +45,10 @@ int main() {
     }
   }
 
-  printf("\nTemperaturas em ordem crescente: %.2f, %.2f, %.2f\n", lowest_temp, middle_temp, highest_temp);
+  printf(
+    "\nTemperaturas em ordem crescente: %.2f, %.2f, %.2f\n",
+    lowest_temp, middle_temp, highest_temp
+  );
 
   return 0;
 }
